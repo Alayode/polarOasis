@@ -3,14 +3,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MatSidenavModule, MatToolbarModule } from '@angular/material';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
 
 
 const ANGULAR_MODULES = [
   HttpClientModule,
-  HttpClient,
   BrowserModule,
   BrowserAnimationsModule,
 ];
@@ -27,7 +27,8 @@ const MATERIAL_MODULES = [
     AppComponent
   ],
   imports: [
-    ANGULAR_MODULES
+    ANGULAR_MODULES,
+    MATERIAL_MODULES
   ],
   providers: [],
   bootstrap: [AppComponent]

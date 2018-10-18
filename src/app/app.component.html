@@ -1,19 +1,15 @@
-<md-toolbar class="header bg-core-blue" layout-align="start center">
-  <!-- <div class="slide-icons-wrapper">
-    <span *ngIf="this.router.url !== '/landing'" (click)="toggleMenu()" class="slide-icons hamburger-icon"
-          [ngClass]="{'selected': isMenuVisible === true}"><i class="fa fa-bars" aria-hidden="false"></i></span>
-    <span *ngIf="this.router.url !== '/landing'; else isLanding" (click)="toggleSearch()"
-          class="slide-icons search-icon" [ngClass]="{'selected': isSearchVisible === true}"><i class="fa fa-search"
-                                                                                                aria-hidden="false"></i></span>
-    <ng-template #isLanding>
-      <span (click)="toggleSearch()" class="slide-icons search-icon hidden-md-up"
-            [ngClass]="{'selected': isSearchVisible === true}"><i class="fa fa-search" aria-hidden="false"></i></span>
-    </ng-template>
-    <span *ngIf="checkIfFlightDetail()" (click)="toggleFlightInfoBar()" class="slide-icons hidden-lg-up flight-icon"
-          [ngClass]="{'selected': flightDetailRef?.flightDetailDraw.opened}"><i class="fa fa-plane"
-                                                                                aria-hidden="false"></i></span>
+<mat-toolbar class="header bg-core-blue" layout-align="start center">
+  <div class="slide-icons-wrapper">
+    <span><i class="fa fa-bars" aria-hidden="false"></i></span>
+    <span class="slide-icons hamburger-icon"></span>
+    <span class="slide-icons search-icon">
+      <i class="fa fa-search" aria-hidden="false"></i>
+    </span>
+    <span class="slide-icons hidden-lg-up flight-icon">
+      <i class="fa fa-plane" aria-hidden="false"></i>
+    </span>
   </div>
   <div class="logo-wrapper">
     <span class="logo"><a href="/"><img src="../assets/jb-blue-eye_logo.png"></a></span>
-  </div> -->
-</md-toolbar>
+  </div>
+</mat-toolbar>

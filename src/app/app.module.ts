@@ -1,14 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MatSidenavModule, MatToolbarModule } from '@angular/material';
+import {HttpClientModule} from '@angular/http';
+import {HttpClient} from '@angular/http';
+
+const ANGULAR_MODULES = [
+  HttpClientModule,
+  HttpClient,
+  BrowserModule,
+  BrowserAnimationsModule,
+];
+
+const MATERIAL_MODULES = [
+  MatToolbarModule,
+  MatSidenavModule,
+]
+
+
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    ANGULAR_MODULES
   ],
   providers: [],
   bootstrap: [AppComponent]

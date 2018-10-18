@@ -1,0 +1,113 @@
+/*@import '../styles/variables.css';*/
+
+/* import of less removed...restore when ready to use */
+
+/*@import '../styles/variables.css';*/
+
+/* import of less removed...restore when ready to use */
+
+.header {
+    background-color: #0057a9;
+  }
+  
+  .logo-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  
+  .logo img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  /* Header clickable items */
+  .slide-icons-wrapper {
+    margin-left: -1rem;
+  }
+  
+  .slide-icons {
+    position: relative;
+    width: 0%;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .bg-core-blue {
+    background-color: #004990;
+  }
+  
+  .side-content {
+    background-color: #aa66aa;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .hamburger-icon,
+  .search-icon,
+  .flight-icon {
+    width: 60px;
+    padding-left: 22px;
+    padding-top: 15px;
+    height: 63px;
+  }
+  
+  /* .search-icon {
+    margin-left: -5px;
+  }
+  
+  .hamburger-icon {
+    margin-left: -17px;
+  } */
+  
+  /* .fa-plane {
+    padding-top: 23px;
+  } */
+  
+  .hamburger-icon:active,
+  .search-icon:active,
+  .fa-plane:active {
+    background-color: #00285e;
+  }
+  
+  .selected {
+    background-color: #00285e;
+  }
+  
+  md-sidenav {
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  md-sidenav-container {
+    position: fixed;
+    width: 100%;
+  }
+  
+  md-sidenav, md-sidenav-container {
+    height: calc(100vh - 64px)
+  }
+  
+  @media (max-width: 600px) {
+    md-sidenav, md-sidenav-container {
+      height: calc(100vh - 56px);
+    }
+  
+    .logo img {
+      left: inherit;
+      right: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) and (orientation: portrait) {
+  /* (index):21 */
+  md-datepicker-content.mat-datepicker-content {
+      width: 359px;
+  }
+}

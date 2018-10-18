@@ -4,8 +4,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MatSidenavModule, MatToolbarModule } from '@angular/material';
-import {HttpClientModule} from '@angular/http';
-import {HttpClient} from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+
 
 const ANGULAR_MODULES = [
   HttpClientModule,

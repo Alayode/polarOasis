@@ -1,0 +1,31 @@
+{
+  "BlueEyeResponse": {
+    "ResponseStatus": "Success",
+    "onboardTailTrackingDetails": {
+      "PastFlights": [{
+        "cityPair": "SJU-JFK",
+        "carrierCode": "B6",
+        "flightNumber": "1504"
+      }],
+      "Current": {
+        "cityPair": "JFK-FLL",
+        "carrierCode": "B6",
+        "flightNumber": "0001"
+      },
+      "FutureFlights": [
+        {
+          "cityPair": "MBJ-JFK",
+          "carrierCode": "B6",
+          "flightNumber": "0780"
+        },
+        {
+          "cityPair": "FLL-MBJ",
+          "carrierCode": "B6",
+          "flightNumber": "2315",
+          "RON": "true"
+        }
+      ]
+    }
+  
+  }
+}

@@ -1,0 +1,88 @@
+{  "onboardResponse":{
+      "ResponseStatus":"Success",
+      "onboardAircraftDetails":
+          {
+            "Aircraft":[
+                {
+                    "TailfinDesignURL":"http://www.jetblue.com/img/travel/planes/tailfins/blueberries-fin.jpg",
+                    "AcRegNumber":"N834JB",
+                    "TailNumber":"834",
+                    "AcName":"Keep Blue and Carry On"
+                }
+            ],
+            "Amenities":[
+              {
+                "AmenityName":"PowerOutlets",
+                "Availability":"true",
+                "Description":"rows 1-5 and 10-11"
+              }
+            ],
+            "FoodAndRefreshment":{
+                "FnRAmenities":[
+                  {
+                      "FnrName":"EatUpCafe",
+                      "Availability":"false",
+                      "Description":"View Options"
+                  },
+                  {
+                      "FnrName":"SnackBox",
+                      "Availability":"false",
+                      "Description":"View Options"
+                  },
+                  {
+                      "FnrName":"SnackAndDrinks",
+                      "Availability":"true",
+                      "Description":"View Options"
+                  },
+                  {
+                      "FnrName":"HotBeverages",
+                      "Availability":"true"
+                  },
+                  {
+                      "FnrName":"Alcohol",
+                      "Availability":"true"
+                  }
+                ]
+            },
+            "InFlightEnt":{
+                "InFlightEntAmenities":[
+                  {
+                      "InFlightEntName":"DirectTv",
+                      "Availability":"true",
+                      "Description":"36 channels "
+                  },
+                  {
+                      "InFlightEntName":"TheHub",
+                      "Availability":"true",
+                      "Description":"With FlyFi"
+                  },
+                  {
+                      "InFlightEntName":"SiriusXMRadio",
+                      "Availability":"true"
+                  },
+                  {
+                      "InFlightEntName":"JBFeatures",
+                      "Availability":"false"
+                  },
+                  {
+                      "InFlightEntName":"JBVideoOnDemand",
+                      "Availability":"false"
+                  },
+                  {
+                      "InFlightEntName":"FlyFi",
+                      "Availability":"true"
+                  }
+                ]
+            },
+            "seats":{
+                "EMSSeatCost":"25",
+                "AcftSeatingDetailURL":"www.jetblue.com/img/blueeye/blue-eye-seatmap_A320.jpg",
+                "SeatCount":{
+                  "Core":"108",
+                  "TtlSeatCount":"150",
+                  "Mint": "17"
+                }
+            }
+          }
+    }
+}

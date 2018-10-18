@@ -1,0 +1,19 @@
+{
+    "FuelDetailsResponse": {
+        "ResponseStatus": "SUCCESS",
+        "fuelDetails": {
+            "Departure": {
+                "actual": "25000",
+                "planned": "25000"
+            },
+            "Arrival": {
+                "actual": "20200",
+                "planned": "18680"
+            },
+            "Burned": {
+                "actual": "4800",
+                "planned": "6268"
+            }
+        }
+    }
+}

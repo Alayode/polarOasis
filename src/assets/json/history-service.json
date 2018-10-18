@@ -1,0 +1,557 @@
+{
+  "FlightHistory": {
+    "FlightEventsByDate": [
+      {
+        "TimeLineDate": "March, 17, 2017",
+        "FlightEventsByTime": [
+          {
+            "TimeSlot": "00:00-00:59",
+            "FlightEvent": [
+              {
+                "EventTime": "10:31:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "GTD",
+                "CurrentDepGate": "33",
+                "PrevDepGate": null,
+                "Description": "Gate change from Gate  to Gate 33"
+              },
+              {
+                "EventTime": "10:31:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "GTA",
+                "CurrentArrGate": "33",
+                "PrevArrGate": null,
+                "Description": "Gate change from Gate  to Gate 33"
+              },
+              {
+                "EventTime": "10:56:00L",
+                "LegSequenceNumber": "14",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 10:56:00L"
+              },
+              {
+                "EventTime": "10:56:00L",
+                "LegSequenceNumber": "14",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 10:56:00L"
+              },
+              {
+                "EventTime": "12:20:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OUT",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              },
+              {
+                "EventTime": "12:20:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OUT",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              },
+              {
+                "EventTime": "12:50:00L",
+                "LegSequenceNumber": "11",
+                "SourceMessageType": "ON",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              },
+              {
+                "EventTime": "12:55:00L",
+                "LegSequenceNumber": "11",
+                "SourceMessageType": "IN",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              },
+              {
+                "EventTime": "13:25:00L",
+                "LegSequenceNumber": "14",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              },
+              {
+                "EventTime": "14:57:00L",
+                "LegSequenceNumber": "14",
+                "SourceMessageType": "IN",
+                "StationCode": "JFK",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "1:00-2:00",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "2:00-2:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "3:00-3:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "4:00-4:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "5:00-5:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "6:00-6:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "7:00-7:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "8:00-8:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "8:00-9:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "10:00-10:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "11:00-11:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "12:00-12:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "13:00-13:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "14:00-14:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "15:00-15:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "16:00-16:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "17:00-17:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "18:00-18:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "19:00-19:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "20:00-20:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "21:00-21:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "22:00-22:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "23:00-23:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          },
+          {
+            "TimeSlot": "24:00-24:59",
+            "FlightEvent": [
+              {
+                "EventTime": "11:21:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 11:21:00L"
+              },
+              {
+                "EventTime": "12:25:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "OFF",
+                "StationCode": "BUF",
+                "EventDate": "03/17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "TimeLineDate": "March, 18, 2017",
+        "FlightEventsByTime": [
+          {
+            "TimeSlot": "00:00-12:59",
+            "FlightEvent": [
+              {
+                "EventTime": "10:31:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "GTD",
+                "CurrentDepGate": "33",
+                "PrevDepGate": null,
+                "Description": "Gate change from Gate  to Gate 33"
+              },
+              {
+                "EventTime": "10:31:00L",
+                "LegSequenceNumber": "10",
+                "SourceMessageType": "GTA",
+                "CurrentArrGate": "33",
+                "PrevArrGate": null,
+                "Description": "Gate change from Gate  to Gate 33"
+              },
+              {
+                "EventTime": "10:56:00L",
+                "LegSequenceNumber": "14",
+                "SourceMessageType": "ETD",
+                "Description": "ETD change: 10:56:00L"
+              },
+              {
+                "EventTime": "14:57:00L",
+                "LegSequenceNumber": "14",
+                "SourceMessageType": "IN",
+                "StationCode": "JFK",
+                "EventDate": "03/17"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

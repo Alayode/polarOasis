@@ -1,0 +1,190 @@
+{
+  "crewDetailsResponse": {
+    "ResponseStatus": "SUCCESS",
+    "crewResponse": [{
+      "crewDetails": {
+        "firstName": "Battler",
+        "middleName": null,
+        "lastName": "Ushiromiyaya",
+        "crewPosition": "CA",
+        "crewID": "36990",
+        "pairingID": "B2381",
+        "homeBase": "Boston, MA(BOS)",
+        "isCheckedIn": "true",
+        "crewPairingDetails": [{
+          "flightDate": "2016-11-28",
+          "PairingFlights": [{
+            "flightNumber": "0493 (FULL CREW RESPONSE DATA)",
+            "arrivalAirport": "DEN",
+            "arrivalCity": "Denver, CO",
+            "depAirport": "BOS",
+            "depCity": "Boston, MA"
+          }]
+        },
+          {
+            "flightDate": "2016-11-29",
+            "PairingFlights": [{
+              "flightNumber": "0098",
+              "arrivalAirport": "JFK",
+              "arrivalCity": "New York City, NY",
+              "depAirport": "DEN",
+              "depCity": "Denver, CO"
+            }]
+          },
+          {
+            "flightDate": "2016-11-30",
+            "PairingFlights": [{
+              "flightNumber": "1123",
+              "arrivalAirport": "LAX",
+              "arrivalCity": "Los Angeles, CA",
+              "depAirport": "JFK",
+              "depCity": "New York City, NY"
+            }]
+          },
+          {
+            "flightDate": "2016-12-01",
+            "PairingFlights": [{
+              "flightNumber": "0324",
+              "arrivalAirport": "JFK",
+              "arrivalCity": "New York City, NY",
+              "depAirport": "LAX",
+              "depCity": "Los Angeles, CA"
+            },
+              {
+                "flightNumber": "1218",
+                "arrivalAirport": "BOS",
+                "arrivalCity": "Boston, MA",
+                "depAirport": "JFK",
+                "depCity": "New York City, NY"
+              }
+            ]
+          }
+        ]
+      }
+    },
+      {
+        "crewDetails": {
+          "firstName": "RICK",
+          "middleName": null,
+          "lastName": "Ushiromiya",
+          "crewPosition": "CA",
+          "crewID": "36990",
+          "pairingID": "A2381",
+          "homeBase": "Boston, MA(BOS)",
+          "isCheckedIn": "true",
+          "crewPairingDetails": [{
+            "flightDate": "2016-11-28",
+            "PairingFlights": [{
+              "flightNumber": "0493",
+              "arrivalAirport": "DEN",
+              "arrivalCity": "Denver, CO",
+              "depAirport": "BOS",
+              "depCity": "Boston, MA"
+            }]
+          },
+            {
+              "flightDate": "2016-11-29",
+              "PairingFlights": [{
+                "flightNumber": "0098",
+                "arrivalAirport": "JFK",
+                "arrivalCity": "New York City, NY",
+                "depAirport": "DEN",
+                "depCity": "Denver, CO"
+              }]
+            },
+            {
+              "flightDate": "2016-11-30",
+              "PairingFlights": [{
+                "flightNumber": "1123",
+                "arrivalAirport": "LAX",
+                "arrivalCity": "Los Angeles, CA",
+                "depAirport": "JFK",
+                "depCity": "New York City, NY"
+              }]
+            },
+            {
+              "flightDate": "2016-12-01",
+              "PairingFlights": [{
+                "flightNumber": "0324",
+                "arrivalAirport": "JFK",
+                "arrivalCity": "New York City, NY",
+                "depAirport": "LAX",
+                "depCity": "Los Angeles, CA"
+              },
+                {
+                  "flightNumber": "1218",
+                  "arrivalAirport": "BOS",
+                  "arrivalCity": "Boston, MA",
+                  "depAirport": "JFK",
+                  "depCity": "New York City, NY"
+                }
+              ]
+            }
+          ]
+        }
+      }, {
+        "crewDetails": {
+          "firstName": "Beatrice",
+          "middleName": null,
+          "lastName": "Ushiromiya",
+          "crewPosition": "CA",
+          "crewID": "36990",
+          "pairingID": "B2381",
+          "homeBase": "Boston, MA(BOS)",
+          "isCheckedIn": "true",
+          "crewPairingDetails": [{
+            "flightDate": "2016-11-28",
+            "PairingFlights": [{
+              "flightNumber": "0493",
+              "arrivalAirport": "DEN",
+              "arrivalCity": "Denver, CO",
+              "depAirport": "BOS",
+              "depCity": "Boston, MA"
+            }]
+          },
+            {
+              "flightDate": "2016-11-29",
+              "PairingFlights": [{
+                "flightNumber": "0098",
+                "arrivalAirport": "JFK",
+                "arrivalCity": "New York City, NY",
+                "depAirport": "DEN",
+                "depCity": "Denver, CO"
+              }]
+            },
+            {
+              "flightDate": "2016-11-30",
+              "PairingFlights": [{
+                "flightNumber": "1123",
+                "arrivalAirport": "LAX",
+                "arrivalCity": "Los Angeles, CA",
+                "depAirport": "JFK",
+                "depCity": "New York City, NY"
+              }]
+            },
+            {
+              "flightDate": "2016-12-01",
+              "PairingFlights": [{
+                "flightNumber": "0324",
+                "arrivalAirport": "JFK",
+                "arrivalCity": "New York City, NY",
+                "depAirport": "LAX",
+                "depCity": "Los Angeles, CA"
+              },
+                {
+                  "flightNumber": "1218",
+                  "arrivalAirport": "BOS",
+                  "arrivalCity": "Boston, MA",
+                  "depAirport": "JFK",
+                  "depCity": "New York City, NY"
+                }
+              ]
+            }
+          ]
+        }
+
+      }
+    ],
+    "callCrewPairings": true
+  }
+}

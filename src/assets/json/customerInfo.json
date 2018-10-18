@@ -1,0 +1,147 @@
+{
+  "CustomerResponse": {
+    "ResponseStatus": "SUCCESS",
+    "SSRDetails": [
+      {
+        "category": {
+          "categoryName": "Minors",
+          "categoryCount": "3",
+          "SSRDetails": [
+            {
+              "SSRCode": "UMNR",
+              "SSRDesc": "Unaccompanied Minor",
+              "SSRCount": "2",
+              "TotalSSRCounts": "4"
+            },
+            {
+              "SSRCode": "INF",
+              "SSRDesc": "Infant",
+              "SSRCount": "1",
+              "TotalSSRCounts": "1"
+            }
+          ]
+        }
+      }
+    ],
+    "custConnectionDetails": {
+      "Inbound": [
+        {
+          "CustomerCount": "3",
+          "IncomingFlight": {
+            "CarrierCode": "B6",
+            "FlightNumber": "0050",
+            "OriginStn": "JFK",
+            "AirlineName": "JetBlue"
+          },
+          "ArrivalGate": {
+            "Gate": "A11",
+            "Terminal": "E"
+          },
+          "FinalDestination": "DLL",
+          "ETA": {
+            "ETA": "15:40",
+            "TimeToArrival": "00H36M"
+          },
+          "ConnectTime": "00H54M"
+        },
+        {
+          "CustomerCount": "3",
+          "IncomingFlight": {
+            "CarrierCode": "B6",
+            "FlightNumber": "0050",
+            "OriginStn": "JFK",
+            "AirlineName": "JetBlue"
+          },
+          "ArrivalGate": {
+            "Gate": "A11",
+            "Terminal": "E"
+          },
+          "FinalDestination": "DLL",
+          "ETA": {
+            "ETA": "15:40",
+            "TimeToArrival": "00H36M"
+          },
+          "ConnectTime": "00H54M"
+        },
+        {
+          "CustomerCount": "3",
+          "IncomingFlight": {
+            "CarrierCode": "B6",
+            "FlightNumber": "0050",
+            "OriginStn": "JFK",
+            "AirlineName": "JetBlue"
+          },
+          "ArrivalGate": {
+            "Gate": "A11",
+            "Terminal": "E"
+          },
+          "FinalDestination": "DLL",
+          "ETA": {
+            "ETA": "15:40",
+            "TimeToArrival": "00H36M"
+          },
+          "ConnectTime": "00H54M"
+        }
+      ],
+      "Outbound": [
+        {
+          "CustomerCount": "3",
+          "ConnectingFlight": {
+            "CarrierCode": "B6",
+            "FlightNumber": "0889",
+            "OriginStn": "FLL",
+            "AirlineName": "JetBlue"
+          },
+          "DepartureGate": {
+            "Gate": "C13",
+            "Terminal": "C"
+          },
+          "FinalDestination": "BOS",
+          "ETD": {
+            "ETD": "16:30",
+            "TimeToDeparture": "00H45M"
+          },
+          "ConnectTime": "04H30M"
+        },
+        {
+          "CustomerCount": "3",
+          "ConnectingFlight": {
+            "CarrierCode": "B6",
+            "FlightNumber": "0889",
+            "OriginStn": "FLL",
+            "AirlineName": "JetBlue"
+          },
+          "DepartureGate": {
+            "Gate": "C13",
+            "Terminal": "C"
+          },
+          "FinalDestination": "BOS",
+          "ETD": {
+            "ETD": "16:30",
+            "TimeToDeparture": "00H45M"
+          },
+          "ConnectTime": "04H30M"
+        },
+        {
+          "CustomerCount": "3",
+          "ConnectingFlight": {
+            "CarrierCode": "B6",
+            "FlightNumber": "0889",
+            "OriginStn": "FLL",
+            "AirlineName": "JetBlue"
+          },
+          "DepartureGate": {
+            "Gate": "C13",
+            "Terminal": "C"
+          },
+          "FinalDestination": "BOS",
+          "ETD": {
+            "ETD": "16:30",
+            "TimeToDeparture": "00H45M"
+          },
+          "ConnectTime": "04H30M"
+        }
+      ]
+    }
+  }
+}

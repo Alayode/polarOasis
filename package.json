@@ -32,6 +32,7 @@
     "redux": "3.7.1",
     "redux-logger": "3.0.6",
     "rxjs": "~6.3.3",
+    "rxjs-compat": "^6.3.3",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

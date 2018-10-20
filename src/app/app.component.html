@@ -13,3 +13,17 @@
     <span class="logo"><a href="/"><img src="../assets/jb-blue-eye_logo.png"></a></span>
   </div>
 </mat-toolbar>
+
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over" opened="false" (close)="hideBothViews($event)">
+    
+    
+    <!-- <be-menu-nav *ngIf="isMenuVisible === true"></be-menu-nav>
+    <be-search-form (isCollapsedEvent)="isCollapsedEvent($event)" *ngIf="isSearchVisible === true"></be-search-form> -->
+  </mat-sidenav>
+  <!-- Activate method allows us to hook into flight-detail component should be refactored to redux at some point -->
+  <!-- <router-outlet (activate)="onActivate($event)"></router-outlet>
+  <router-outlet></<router-outlet> -->
+
+</mat-sidenav-container>

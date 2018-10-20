@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { HttpClientModule } from '@angular/common/http';
-import { HttpClient } from '@angular/common/http';
+import { MenuNavigationComponent } from './menu-navigation/menu-navigation.component';
+// import { HttpClient } from '@angular/common/http';
 
 
 const ANGULAR_MODULES = [
@@ -24,7 +25,8 @@ const MATERIAL_MODULES = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuNavigationComponent
   ],
   imports: [
     ANGULAR_MODULES,

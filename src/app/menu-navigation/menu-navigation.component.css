@@ -1,0 +1,133 @@
+.jbnav-item {
+    min-height: 5.8rem;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+  
+  }
+  
+  .jbnav-item li {
+    min-height: 0.8rem;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .jbnav-item span {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 45px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #034c92;
+  }
+  
+  /* ===============================
+  Menu and Search left navs
+  =============================== */
+  
+  .be-heading {
+    font-size: 1.5rem;
+    color: #245269;
+    list-style-type: none;
+  }
+  
+  .be-subheadings {
+    font-size: 0.8rem;
+    color: #245269;
+    /* padding: 0.2rem 0.8rem; */
+    font-weight: bold;
+    list-style-type: none;
+  }
+  
+  .be-subheadings-items {
+    font-size: 0.7rem;
+    color: #1b6d85;
+    /* padding: 0.3rem 0.8rem; */
+    font-weight: bold;
+    list-style-type: none;
+  }
+  
+  .be-no-overflow {
+    overflow: hidden;
+  }
+  
+  .be-search-title > div > div {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 1.2rem;
+    padding-top: 0.8rem;
+    width: 100%;
+  }
+  
+  .input-tail-number {
+    margin-bottom: 0;
+  }
+  
+  .be-hr {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0;
+  }
+  
+  .be-bottom-most {
+    /* border-bottom: 1px solid #f2f2f2; */
+    padding-bottom: 0.2rem;
+    padding-top: 0.8rem;
+  }
+  
+  .be-utc {
+    color: #245269;
+    padding: 0.3rem 0.8rem 0.3rem 2.3rem;
+    font-size: 0.7rem;
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  .be-utc-checkbox {
+    padding-right: 3px;
+    height: 0.8rem;
+    width: 1rem;
+  }
+  
+  .be-utc-label {
+    font-size: 0.8rem;
+  }
+  
+  .be-utc-checkbox:focus {
+    outline: 0;
+  }
+  
+  .be-heading-glyphicon {
+    font-size: 1.2rem;
+    color: #245269;
+    padding: 0.8rem;
+  }
+  
+  .be-toggle-sidebar {
+    display: table-cell;
+  }
+  
+  .be-toggle-sidebar.active {
+    height: 30px;
+    width: 30px;
+    background-color: #245269;
+    /* padding: 2% 2% 2% 2%; */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    left: 245px;
+    top: 6px;
+    z-index: 10000;
+  }
+  
+  .form-control.input-box {
+    width: 100%;
+  }
+  
+  

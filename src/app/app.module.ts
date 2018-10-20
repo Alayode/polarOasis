@@ -7,6 +7,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuNavigationComponent } from './menu-navigation/menu-navigation.component';
+import { SearchFormComponent } from './search-form/search-form.component';
 // import { HttpClient } from '@angular/common/http';
 
 
@@ -26,7 +27,8 @@ const MATERIAL_MODULES = [
 @NgModule({
   declarations: [
     AppComponent,
-    MenuNavigationComponent
+    MenuNavigationComponent,
+    SearchFormComponent
   ],
   imports: [
     ANGULAR_MODULES,

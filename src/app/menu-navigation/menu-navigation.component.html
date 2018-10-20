@@ -10,25 +10,33 @@
     </ul>
   </div>
   <div class="jbnav-item">
-    <!-- [attr.href]="links.GOFIDS"  use this later -->
+    <!-- use this later -->outstandingDelayCodes
+    <!-- [attr.href]="links.GOFIDS"   -->
+    <!-- [attr.href]="links.MXFIDS" -->
     <span> <a target="_blank">AO</a> <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i><a target="_blank">GO</a> <i class="fa fa-angle-right fa-2x"
-                                                                               aria-hidden="true"></i> <a [attr.href]="links.MXFIDS" target="_blank">MX</a> <i
+                                                                               aria-hidden="true"></i> <a  target="_blank">MX</a> <i
       class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span>
-  </div>
+  </div>outstandingDelayCodes
   <div class="jbnav-item be-hr">
     <ul class="to-the-left">
+      <!-- Later use this 
+      [attr.href]="links.outstandingDelayCodes" -->
+      <!-- delayCodeSummary -->
+      <!-- [attr.href]="links.delayCodeSummary"  -->
       <li style="font-weight:700">Departure Delays</li>
-      <li style="font-weight:lighter"><a [attr.href]="links.outstandingDelayCodes" target="_blank">Outstanding Delay Codes</a></li>
-      <li style="font-weight:lighter"><a [attr.href]="links.delayCodeSummary" target="_blank">Delay Code Summary</a></li>
+      <li style="font-weight:lighter"><a  target="_blank">Outstanding Delay Codes</a></li>
+      <li style="font-weight:lighter"><a target="_blank">Delay Code Summary</a></li>
     </ul>
 
     <div class="col-xs-2"></div>
   </div>
   <div class="jbnav-item be-hr">
     <ul class="to-the-left">
+        <!-- [attr.href]="links.byRoute"  -->
+        <!-- [attr.href]="links.inflightByRoute"  -->
       <li style="font-weight:700">NPS Values</li>
-      <li style="font-weight:lighter"><a [attr.href]="links.byRoute" target="_blank">By Route</a></li>
-      <li style="font-weight:lighter"><a [attr.href]="links.inflightByRoute" target="_blank">Inflight By Route</a></li>
+      <li style="font-weight:lighter"><a target="_blank">By Route</a></li>
+      <li style="font-weight:lighter"><a target="_blank">Inflight By Route</a></li>
     </ul>
 
     <div class="col-xs-2"></div>

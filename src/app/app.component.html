@@ -1,6 +1,6 @@
 <mat-toolbar class="header bg-core-blue" layout-align="start center">
   <div class="slide-icons-wrapper">
-    <span><i class="fa fa-bars" aria-hidden="false"></i></span>
+    <span><i class="fa fa-bars"  (click)="drawer.toggle()" aria-hidden="false"></i></span>
     <span class="slide-icons hamburger-icon"></span>
     <span class="slide-icons search-icon">
       <i class="fa fa-search" aria-hidden="false"></i>
@@ -16,13 +16,16 @@
 
 
 <mat-sidenav-container>
-  <mat-sidenav #sidenav mode="over" opened="false" (close)="hideBothViews($event)">
-    
-    <ys-menu-navigation></ys-menu-navigation>
+    <mat-sidenav #drawer  mode="side">
+        <ys-menu-navigation></ys-menu-navigation>
+      </mat-sidenav>
+    <mat-sidenav-content>
+  
     <!-- <be-menu-nav *ngIf="isMenuVisible === true"></be-menu-nav>
     <be-search-form (isCollapsedEvent)="isCollapsedEvent($event)" *ngIf="isSearchVisible === true"></be-search-form> -->
       <ys-search-form></ys-search-form>
-  </mat-sidenav>
+        </mat-sidenav-content>
+     
   <!-- Activate method allows us to hook into flight-detail component should be refactored to redux at some point -->
   <!-- <router-outlet (activate)="onActivate($event)"></router-outlet>
   <router-outlet></<router-outlet> -->

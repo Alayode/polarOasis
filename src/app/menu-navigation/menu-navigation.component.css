@@ -1,3 +1,15 @@
+/* For MatExpansion Component Concept */
+.page {
+  display: flex
+}
+.page__sidebar {
+  width: 300px;
+}
+.page__content {
+  flex: 1
+}
+
+/* For actual menu-navigation */
 .jbnav-item {
     min-height: 5.8rem;
     display: flex;

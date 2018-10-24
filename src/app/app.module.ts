@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuNavigationComponent } from './menu-navigation/menu-navigation.component';
 import { SearchFormComponent } from './search-form/search-form.component';
@@ -20,6 +21,7 @@ const ANGULAR_MODULES = [
 const MATERIAL_MODULES = [
   MatToolbarModule,
   MatSidenavModule,
+  MatExpansionModule
 ]
 
 

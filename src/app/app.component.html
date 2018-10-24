@@ -17,17 +17,13 @@
 
 <mat-sidenav-container>
     <mat-sidenav #drawer  mode="side">
-        <ys-menu-navigation></ys-menu-navigation>
+      
+       My Side Nav
+          <ys-menu-navigation></ys-menu-navigation>
+            <!-- <be-menu-nav *ngIf="isMenuVisible === true"></be-menu-nav>
+            <be-search-form (isCollapsedEvent)="isCollapsedEvent($event)" *ngIf="isSearchVisible === true"></be-search-form> -->
+              <ys-search-form></ys-search-form>
+              
       </mat-sidenav>
-    <mat-sidenav-content>
-  
-    <!-- <be-menu-nav *ngIf="isMenuVisible === true"></be-menu-nav>
-    <be-search-form (isCollapsedEvent)="isCollapsedEvent($event)" *ngIf="isSearchVisible === true"></be-search-form> -->
-      <ys-search-form></ys-search-form>
-        </mat-sidenav-content>
-     
-  <!-- Activate method allows us to hook into flight-detail component should be refactored to redux at some point -->
-  <!-- <router-outlet (activate)="onActivate($event)"></router-outlet>
-  <router-outlet></<router-outlet> -->
-
+      <mat-sidenav-content>  SideNav COntent  </mat-sidenav-content>
 </mat-sidenav-container>

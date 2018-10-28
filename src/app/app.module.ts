@@ -10,6 +10,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuNavigationComponent } from './menu-navigation/menu-navigation.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { IconComponent } from './shared';
+import {FormGroup, FormControl, Validators} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 // import { HttpClient } from '@angular/common/http';
 
 
@@ -17,6 +20,7 @@ const ANGULAR_MODULES = [
   HttpClientModule,
   BrowserModule,
   BrowserAnimationsModule,
+  FormsModule
 ];
 
 const MATERIAL_MODULES = [
@@ -32,7 +36,8 @@ const MATERIAL_MODULES = [
   declarations: [
     AppComponent,
     MenuNavigationComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    IconComponent
   ],
   imports: [
     ANGULAR_MODULES,

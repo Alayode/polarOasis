@@ -3,6 +3,8 @@
     <ys-icon height="1.3em" width="1.3em" class="magnifying-glass-icon" type="magnifying-glass"></ys-icon>
     <span class="search-title ">Let's Search</span>
   </div>
+
+  <!-- Need the FormsModule in order to use the [(ngModel)] alt: ng-model attribute -->
   <mat-select class="md-select-trigger" placeholder="Search Option" [(ngModel)]="default">
         <!-- <mat-option class="md-select-trigger" *ngFor="let options of searchby" [value]="options.code">{{ options.name }}</md-option> -->
   </mat-select>

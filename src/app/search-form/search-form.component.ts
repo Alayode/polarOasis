@@ -14,6 +14,9 @@ export class SearchFormComponent implements OnInit {
 
   default: any;
 
+  options = [];
+  codeShare = [];
+  airlineOptions = [];
 
   isCollapsed: boolean;
   searchFormCollapseHide: boolean;

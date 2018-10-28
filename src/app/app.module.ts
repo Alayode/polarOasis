@@ -13,8 +13,10 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import { IconComponent } from './shared';
 import {FormGroup, FormControl, Validators} from '@angular/forms';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LandingComponent } from './landing/landing.component';
+import { FooterComponent } from './footer/footer.component';
 // import { HttpClient } from '@angular/common/http';
-
+import { landingConfig } from './landing/landing.config';
 
 const ANGULAR_MODULES = [
   HttpClientModule,
@@ -37,7 +39,9 @@ const MATERIAL_MODULES = [
     AppComponent,
     MenuNavigationComponent,
     SearchFormComponent,
-    IconComponent
+    IconComponent,
+    LandingComponent,
+    FooterComponent
   ],
   imports: [
     ANGULAR_MODULES,

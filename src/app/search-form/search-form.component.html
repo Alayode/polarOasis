@@ -4,10 +4,19 @@
     <span class="search-title ">Let's Search</span>
   </div>
 
-  <!-- Need the FormsModule in order to use the [(ngModel)] alt: ng-model attribute -->
-  <mat-select class="md-select-trigger" placeholder="Search Option" [(ngModel)]="default">
+  <!-- Need the FormsModule in order to use the [(ngModel)] alt: ng-model attribute
+  g -->
+  <mat-form-field>
+   <mat-select class="md-select-trigger" placeholder="Search Option" [(ngModel)]="default">
         <!-- <mat-option class="md-select-trigger" *ngFor="let options of searchby" [value]="options.code">{{ options.name }}</md-option> -->
-  </mat-select>
+          <mat-option class="md-select-trigger"
+                       *ngFor="let options of searchby" 
+                       [value]="options.code">
+                       {{ options.name }}
+          </mat-option>
+        </mat-select>
+  </mat-form-field>
+ 
   <br>
 
   <div class="search-form" >

@@ -17,6 +17,10 @@ import { LandingComponent } from './landing/landing.component';
 import { FooterComponent } from './footer/footer.component';
 // import { HttpClient } from '@angular/common/http';
 import { landingConfig } from './landing/landing.config';
+import { CityPairFormComponent } from './search-form/city-pair-form/city-pair-form.component';
+import { CodeShareFormComponent } from './search-form/code-share-form/code-share-form.component';
+import { FlightNumberFormComponent } from './search-form/flight-number-form/flight-number-form.component';
+import { TailNumberFormComponent } from './search-form/tail-number-form/tail-number-form.component';
 
 const ANGULAR_MODULES = [
   HttpClientModule,
@@ -41,7 +45,11 @@ const MATERIAL_MODULES = [
     SearchFormComponent,
     IconComponent,
     LandingComponent,
-    FooterComponent
+    FooterComponent,
+    CityPairFormComponent,
+    CodeShareFormComponent,
+    FlightNumberFormComponent,
+    TailNumberFormComponent
   ],
   imports: [
     ANGULAR_MODULES,

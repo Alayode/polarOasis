@@ -22,6 +22,17 @@ import { CodeShareFormComponent } from './search-form/code-share-form/code-share
 import { FlightNumberFormComponent } from './search-form/flight-number-form/flight-number-form.component';
 import { TailNumberFormComponent } from './search-form/tail-number-form/tail-number-form.component';
 
+// ToDo:  Installing Redux
+/**
+ * // Redux:
+import { NgReduxModule, NgRedux } from '@angular-redux/store';
+import { store } from './store/store';
+import { IAppState } from './store/app-state.type';
+
+ */
+
+
+
 const ANGULAR_MODULES = [
   HttpClientModule,
   BrowserModule,

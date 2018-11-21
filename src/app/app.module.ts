@@ -21,6 +21,7 @@ import { CityPairFormComponent } from './search-form/city-pair-form/city-pair-fo
 import { CodeShareFormComponent } from './search-form/code-share-form/code-share-form.component';
 import { FlightNumberFormComponent } from './search-form/flight-number-form/flight-number-form.component';
 import { TailNumberFormComponent } from './search-form/tail-number-form/tail-number-form.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 // ToDo:  Installing Redux
 /**
@@ -60,7 +61,8 @@ const MATERIAL_MODULES = [
     CityPairFormComponent,
     CodeShareFormComponent,
     FlightNumberFormComponent,
-    TailNumberFormComponent
+    TailNumberFormComponent,
+    SearchResultsComponent
   ],
   imports: [
     ANGULAR_MODULES,

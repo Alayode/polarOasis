@@ -13,11 +13,12 @@ export class SearchResultsComponent implements OnInit {
 
   @Input() control: FormControl;
 
+  Calendar_Dates: any;
   constructor(
     private router: Router,
     private route: ActivatedRoute
   ) { 
-    
+
   }
 
   ngOnInit() {
